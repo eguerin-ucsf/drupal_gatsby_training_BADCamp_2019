@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby + Drupal 8`,
+    slogan: `A Match Made in Heaven`,
+    description: `A demo site made in
+		our Gatsby + Drupal training
+		session at BADCamp 2019!`,
+    author: `@porkloin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,13 +30,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    /*{
+    {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `https://stm5d95917bef2e4-l6po7xb9wogqpizeor0rmtsio9o6wfcc.tugboat.qa/`, // optional: use your simplytest url here
+        baseUrl: `https://stm5d961ae376107-eq50sjcxoj3mdi2lmmo3zzbticv1vh7s.tugboat.qa/`,
+        // optional: use your simplytest url here
         apiBase: `jsonapi`, // optional, defaults to `jsonapi`
       },
-    },*/
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
